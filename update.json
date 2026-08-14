@@ -6,12 +6,12 @@
   "files": [
     {
       "name": "安装版",
-      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.0/妖火影视-Setup-1.0.0-x64.exe",
+      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.0/yaohuotv-Setup-1.0.0-x64.exe",
       "sha512": ""
     },
     {
       "name": "便携版",
-      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.0/妖火影视-Portable-1.0.0-x64.exe",
+      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.0/yaohuotv-Portable-1.0.0-x64.exe",
       "sha512": ""
     }
   ]
