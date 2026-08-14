@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "pubDate": "2026-08-14",
+  "notes": "v1.0.0 正式版：\n- 导入兼容 TVBox 多种订阅格式（JSON/XML/MacCMS/base64/gzip/JSONP 等）\n- 豆瓣热榜影视墙，点击按片名自动搜索\n- 搜索结果多源横向标签切换\n- 图片懒加载 + 并发限速\n- 观看历史跨源自动切换\n- 设置页「检查更新」（非强制，挂 GitHub 仓库）",
+  "url": "https://github.com/CaDogCoLa/yaohuotv/releases",
+  "files": [
+    {
+      "name": "安装版",
+      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.0/妖火影视-Setup-1.0.0-x64.exe",
+      "sha512": ""
+    },
+    {
+      "name": "便携版",
+      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.0/妖火影视-Portable-1.0.0-x64.exe",
+      "sha512": ""
+    }
+  ]
+}
