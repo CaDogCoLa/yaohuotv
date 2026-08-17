@@ -1,17 +1,17 @@
 {
-  "version": "1.0.0",
-  "pubDate": "2026-08-14",
-  "notes": "v1.0.0 正式版：\n- 导入兼容 TVBox 多种订阅格式（JSON/XML/MacCMS/base64/gzip/JSONP 等）\n- 豆瓣热榜影视墙，点击按片名自动搜索\n- 搜索结果多源横向标签切换\n- 图片懒加载 + 并发限速\n- 观看历史跨源自动切换\n- 设置页「检查更新」（非强制，挂 GitHub 仓库）",
+  "version": "1.0.2",
+  "pubDate": "2026-08-17",
+  "notes": "v1.0.2 更新内容：\n- 修复：从直播切换到点播后，直播仍在后台播放有声音（切换视图时彻底停止直播）\n- 修复：全屏逻辑拆分清晰 —— 窗口内右下角「全屏」按钮走系统级全屏（一次点击即铺满屏幕），右上角「放大」按钮走窗口最大化（客户端占据全屏幕），两者互不干扰\n- 修复：播放视频时无法最小化 / 移动窗口 —— 点击视频即打开独立播放窗口，窗口内自带选集面板，可移动、最小化、最大化、关闭、全屏（类似 B 站 PC 客户端）；窗口内即可切换集数，无需先选集再弹出\n- 修复：直播频道栏占位过大，新增「收起频道」按钮可折叠，给视频腾出更大空间\n- 修复：启动时误显示「加载内置默认源」（系统无内置源，已改为「正在启动…」）\n- 优化：弹幕改为自建 DOM 覆盖层渲染，支持弹弹play 与 zhouzhou.asia 双源兜底，加载失败静默处理、关闭时完全卸载并清理\n- 新增：弹幕设置 —— 加载数量（极少 / 少 / 中 / 多）与显示区域（1/4 屏 / 1/2 屏 / 全屏显示），即时生效无需重开剧集\n- 修复：同名动漫 / 电视剧弹幕错乱 —— 按集数精准锁定目标条目，区分同名不同集\n- 优化：播放窗口左侧选集按钮改为单列完整显示，集数文字不再被截断\n- 优化：选集折叠按钮改为显示「折叠 / 展开」，当前集数显示在窗口标题栏（妖火影视 · 剧名 · 第N集）\n- 清理：移除调试用的弹幕诊断悬浮窗与渲染端冗余死代码，减小体积、提升稳定性",
   "url": "https://github.com/CaDogCoLa/yaohuotv/releases",
   "files": [
     {
       "name": "安装版",
-      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.0/yaohuotv-Setup-1.0.0-x64.exe",
+      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.2/yaohuotv-Setup-1.0.2-x64.exe",
       "sha512": ""
     },
     {
       "name": "便携版",
-      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.0/yaohuotv-Portable-1.0.0-x64.exe",
+      "url": "https://github.com/CaDogCoLa/yaohuotv/releases/download/v1.0.2/yaohuotv-Portable-1.0.2-x64.exe",
       "sha512": ""
     }
   ]
